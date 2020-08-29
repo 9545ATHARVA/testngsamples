@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Test1">
+
+        <parameter name="x" value="49"/>
+        <parameter name="y" value="35"/>
+        <classes>
+            <class name="mypack.TestDataFromParametersSuiteFile">
+                <methods>
+                    <include name="sum"/>
+                    <include name="subtract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="Test2">
+
+        <parameter name="x" value="35"/>
+        <parameter name="y" value="32"/>
+        <classes>
+            <class name="mypack.TestDataFromParametersSuiteFile">
+                <methods>
+                    <include name="sum"/>
+                    <include name="subtract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

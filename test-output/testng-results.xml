@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="80" started-at="2020-08-29T15:54:04 IST" finished-at="2020-08-29T15:54:04 IST">
+    <groups>
+    </groups>
+    <test name="E:/LEARNING 2020/Microservices Testing/microservicetest/microservicetest/testngsamples/src/test/java/mypack/Test1.java" duration-ms="80" started-at="2020-08-29T15:54:04 IST" finished-at="2020-08-29T15:54:04 IST">
+      <class name="mypack.Test1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:mypack.Test1@6166e06f]" name="method1" duration-ms="10" started-at="2020-08-29T15:54:04 IST" finished-at="2020-08-29T15:54:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:mypack.Test1@6166e06f]" name="method2" duration-ms="0" started-at="2020-08-29T15:54:04 IST" description="Method Description" finished-at="2020-08-29T15:54:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:mypack.Test1@6166e06f]" name="method3" duration-ms="0" started-at="2020-08-29T15:54:04 IST" depends-on-methods="mypack.Test1.method2" finished-at="2020-08-29T15:54:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- mypack.Test1 -->
+    </test> <!-- E:/LEARNING 2020/Microservices Testing/microservicetest/microservicetest/testngsamples/src/test/java/mypack/Test1.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
