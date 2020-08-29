@@ -25,7 +25,7 @@ public class TestDataProvider1 {
     }
 
     @Test(dataProvider = "mydata")
-    public void multiplication(int x, int y) {
+    public void multiply(int x, int y) {
         System.out.print("Sum is = " + (x * y));
     }
 
