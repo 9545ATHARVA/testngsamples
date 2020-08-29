@@ -33,6 +33,12 @@ public class TestDataProvider1 {
     public void divide(int x, int y) {
         System.out.print("Sum is = " + (x / y));
     }
+    
+    
+    @Test(dataProvider = "mydata")
+    public void divide1(int x, int y) {
+        System.out.print("Sum is = " + (x / y));
+    }
 
 
 }
