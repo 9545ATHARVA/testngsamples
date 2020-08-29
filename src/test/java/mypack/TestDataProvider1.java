@@ -23,4 +23,11 @@ public class TestDataProvider1 {
     public void subtract(int x, int y) {
         System.out.println("Subtract is = " + (x - y));
     }
+
+    @Test(dataProvider = "mydata")
+    public void multiply(int x, int y) {
+        System.out.print("Sum is = " + (x * y));
+    }
+
+
 }
