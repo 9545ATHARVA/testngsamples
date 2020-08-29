@@ -7,6 +7,8 @@ public class TestPriority {
     @Test
     public void method1() {
         System.out.println("Test Method1 Passed");
+        
+     
     }
 
     @Test(priority = 1)
@@ -16,7 +18,7 @@ public class TestPriority {
 
     @Test(priority = -1)
     public void method3() {
-        System.out.println("Test Method3 Passed");
+       System.out.println("Test Method3 Passed");
     }
 
     @Test

@@ -1,205 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="172" started-at="2020-08-29T16:37:28 IST" finished-at="2020-08-29T16:37:28 IST">
+  <suite name="Default suite" duration-ms="145" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
     <groups>
     </groups>
-    <test name="testngsamples" duration-ms="172" started-at="2020-08-29T16:37:28 IST" finished-at="2020-08-29T16:37:28 IST">
-      <class name="mypack.TestDataProvider1">
-        <test-method status="PASS" signature="multiply(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="multiply" duration-ms="12" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="145" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
+      <class name="mypack.TestPriority">
+        <test-method status="PASS" signature="method3()[pri:-1, instance:mypack.TestPriority@5bc79255]" name="method3" duration-ms="16" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiply -->
-        <test-method status="PASS" signature="multiply(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="multiply" duration-ms="1" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:mypack.TestPriority@5bc79255]" name="method1" duration-ms="3" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiply -->
-        <test-method status="PASS" signature="multiply(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="multiply" duration-ms="14" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:mypack.TestPriority@5bc79255]" name="method4" duration-ms="2" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiply -->
-        <test-method status="PASS" signature="multiply(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="multiply" duration-ms="0" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method5()[pri:0, instance:mypack.TestPriority@5bc79255]" name="method5" duration-ms="7" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiply -->
-        <test-method status="PASS" signature="subtract(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="subtract" duration-ms="0" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- method5 -->
+        <test-method status="PASS" signature="method2()[pri:1, instance:mypack.TestPriority@5bc79255]" name="method2" duration-ms="13" started-at="2020-08-29T18:25:37 IST" finished-at="2020-08-29T18:25:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subtract -->
-        <test-method status="PASS" signature="subtract(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="subtract" duration-ms="2" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtract -->
-        <test-method status="PASS" signature="subtract(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="subtract" duration-ms="1" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtract -->
-        <test-method status="PASS" signature="subtract(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="subtract" duration-ms="2" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtract -->
-        <test-method status="PASS" signature="sum(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="sum" duration-ms="4" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="sum" duration-ms="2" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="sum" duration-ms="2" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-        <test-method status="PASS" signature="sum(int, int)[pri:0, instance:mypack.TestDataProvider1@6166e06f]" name="sum" duration-ms="1" started-at="2020-08-29T16:37:28 IST" data-provider="mydata" finished-at="2020-08-29T16:37:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- mypack.TestDataProvider1 -->
-    </test> <!-- testngsamples -->
-  </suite> <!-- Default Suite -->
+        </test-method> <!-- method2 -->
+      </class> <!-- mypack.TestPriority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
